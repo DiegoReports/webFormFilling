@@ -10,7 +10,6 @@ Projeto desenvolvido durante o treinamento do curso [RPA with Python and BotCity
 
 - **Botcity Framework Web**
 - **Pandas**
-- **Pyautogui**
 - **Google Forms**
 
 ## Funcionalidades
@@ -33,7 +32,6 @@ Antes de executar o projeto, você precisará ter os seguintes itens instalados 
 - As bibliotecas necessárias:
   - Botcity Framework Web
   - Pandas
-  - Pyautogui
 
 ### Instalação das Dependências
 
@@ -41,7 +39,7 @@ Antes de executar o projeto, você precisará ter os seguintes itens instalados 
 2. Execute o seguinte comando para instalar as bibliotecas necessárias:
 
 ```bash
-pip install botcity-framework-web pandas pyautogui
+pip install botcity-framework-web pandas
 ```
 
 ## Autor
