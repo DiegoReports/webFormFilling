@@ -55,6 +55,14 @@ def main():
         city_input_field = bot.find_element("//div[contains(@data-params, 'City')]//input",By.XPATH)
         city_input_field.send_keys(row['City'])
 
+        # Enviando o Formulário
+        submit_btn = bot.find_element("//span[text()='Enviar']",By.XPATH) 
+        submit_btn.click()
+        bot.wait(1000)
+
+        sumbmit_anoter_response = bot.find_element("//a[text()='Enviar outra resposta']",By.XPATH)
+        sumbmit_anoter_response.click()
+
 
 
     # Wait 3 seconds before closing
