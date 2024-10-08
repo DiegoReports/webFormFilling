@@ -23,6 +23,27 @@ Projeto desenvolvido durante o treinamento do curso [RPA with Python and BotCity
 
 - Python 🐍
 
+## Instruções de Uso
+
+### Pré-requisitos
+
+Antes de executar o projeto, você precisará ter os seguintes itens instalados em seu sistema:
+
+- Python 3.8 ou superior
+- As bibliotecas necessárias:
+  - Botcity Framework Web
+  - Pandas
+  - Pyautogui
+
+### Instalação das Dependências
+
+1. Abra o terminal ou prompt de comando.
+2. Execute o seguinte comando para instalar as bibliotecas necessárias:
+
+```bash
+pip install botcity-framework-web pandas pyautogui
+```
+
 ## Autor
 
 ❤️ por [Diego Henrique](https://www.linkedin.com/in/diego-henrique-sg)
